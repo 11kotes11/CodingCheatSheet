@@ -1,0 +1,57 @@
+/*Basic Reset*/
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    background-color: rgb(209, 198, 96);
+    text-align: center;
+    font-size: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+body {
+    background-color:rgb(236, 227, 141);
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;  
+}
+
+button {
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(209, 198, 96);
+    text-align: center;
+}
+
+button:hover, button:active {
+    background-color: rgb(138, 129, 51);
+}
+
+
+table {
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+th {
+    font-size: 50px;
+}
+
+td {
+    font-size: 20px;
+}
+
+.code {
+    font-family: monospace;
+}
